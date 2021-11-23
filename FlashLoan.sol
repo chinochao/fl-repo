@@ -1,8 +1,8 @@
 pragma solidity ^0.6.6;
 
-import "./FlashLoanReceiverBase.sol";
-import "./ILendingPoolAddressesProvider.sol";
-import "./ILendingPool.sol";
+import "https://github.com/chinochao/fl-repo/blob/main/FlashLoanReceiverBase.sol";
+import "https://github.com/chinochao/fl-repo/blob/main/ILendingPoolAddressesProvider.sol";
+import "https://github.com/chinochao/fl-repo/blob/main/ILendingPool.sol";
 
 contract FlashloanV1 is FlashLoanReceiverBaseV1 {
 
